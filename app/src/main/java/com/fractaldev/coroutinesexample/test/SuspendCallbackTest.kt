@@ -21,6 +21,7 @@ fun suspendCallback() {
     readLine()
 }
 
+//test
 suspend fun getAsyncResult(operation: AsyncOperation): Int {
     return suspendCancellableCoroutine { continuation ->
         operation.addOnCompleteListener {
